@@ -57,7 +57,7 @@
                         android:textColor="#4c4c4c"
                         android:layout_gravity="center_vertical"
                         android:background="@null"
-                        android:text="" />
+                        android:text="请输入推流地址" />
 
                 </LinearLayout>
 

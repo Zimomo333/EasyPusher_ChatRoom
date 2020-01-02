@@ -84,17 +84,4 @@ public class EasyApplication extends Application {
         }
     }
 
-    @Subscribe
-    public void onStartRecord(StartRecord sr) {
-        // 开始录像的通知，记下当前时间
-        mRecording = true;
-        mRecordingBegin = System.currentTimeMillis();
-    }
-
-    @Subscribe
-    public void onStopRecord(StopRecord sr){
-        // 停止录像的通知，更新状态
-        mRecording = false;
-        mRecordingBegin = 0;
-    }
 }
